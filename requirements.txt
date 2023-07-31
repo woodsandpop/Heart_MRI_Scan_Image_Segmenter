@@ -1,6 +1,6 @@
 # YOLOv5 requirements
 # Usage: pip install -r requirements.txt
-PyTorch>=1.7
+#PyTorch>=1.7
 numpy>=1.22.4
 sklearn-pandas<=2.2.0
 wget>=3.2

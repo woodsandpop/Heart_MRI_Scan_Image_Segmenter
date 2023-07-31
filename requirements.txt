@@ -4,8 +4,8 @@
 numpy>=1.22.4
 sklearn-pandas<=2.2.0
 wget>=3.2
-streamlit==23.2.1
-detect<=2020.12.3
+streamlit>=23.2.1
+detect>=2020.12.3
 # Base ------------------------------------------------------------------------
 gitpython>=3.1.30
 matplotlib>=3.3

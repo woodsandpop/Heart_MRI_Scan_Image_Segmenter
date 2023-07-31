@@ -1,0 +1,13 @@
+train: ../heart_dataset/images/train
+val: ../heart_dataset/images/val
+
+
+nc: 3
+names: ['left ventricule', 'myocard', 'right ventricle']
+
+roboflow:
+  workspace: memoire
+  project: heart-segmentation-2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/memoire/heart-segmentation-2/dataset/1

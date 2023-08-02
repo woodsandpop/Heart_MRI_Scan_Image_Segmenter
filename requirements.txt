@@ -1,5 +1,6 @@
 # YOLOv5 requirements
 # Usage: pip install -r requirements.txt
+libGL
 wget>=3.2
 streamlit>=1.22.0
 detect>=2020.12.3

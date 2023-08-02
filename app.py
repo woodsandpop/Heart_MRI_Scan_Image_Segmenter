@@ -1,4 +1,5 @@
 import streamlit as st
+import libGL
 import torch
 import detect
 from PIL import Image

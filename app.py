@@ -26,7 +26,7 @@ def imageInput(src):
 
             #call Model prediction--
             model = torch.hub.load('ultralytics/yolov5', 'custom', path='heart_1st/weights/best.pt', force_reload=True)  
-            model.cuda() if device == 'cuda' else model.cpu()
+            #model.cuda() if device == 'cuda' else model.cpu()
             pred = model(imgpath)
             pred.render()  # render bbox in image
             for im in pred.ims:
